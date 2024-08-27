@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1663957860 source:d:\programs\candcpp\test debug\main.c
+	<stdio.h>
+	<stdlib.h>
+
