@@ -24,7 +24,7 @@ void sortByArrivalTime(Process processes[], int size){
 }
 
 void findCompletionTime(Process processes[], int size){
-    processes[0].completion_time= processes[0].burst_time;
+    processes[0].completion_time= processes[0].burst_time + processes[0].arrival_time;
     for (int i=1; i<size; i++){
         if(processes[i].arrival_time > processes[i-1].completion_time){
             processes[i].completion_time = processes[i].arrival_time + processes[i].burst_time;
