@@ -1,33 +1,49 @@
 #include <iostream>
 using namespace std;
 
+//class className{
+//    public:
+//        int attribute1;
+//        string attribute2;
+//
+//        className(){
+//            attribute1=0;
+//            attribute2="Default";
+//        }
+//
+//        void Display(){
+//            cout << "Attribute 1:" << attribute1 << endl;
+//            cout << "Attribute 2:" << attribute2 << endl;
+//        }
+//};
+
+//class Base{
+//public:
+//    void displayBase(){
+//        cout << "This is base class." << endl;
+//    }
+//};
+//
+//class Derived : public Base{
+//public:
+//    void displayDerived(){
+//        cout << "This is the derived class." <<endl;
+//    }
+//};
+
 int main()
 {
-//	int arr[3] {1,2,3};
-//    int arr[2][3];
-//    int arr2[3][2];
-//    int arr3[2,3];
+//    className obj;
+//    obj.Display();
+//    obj.attribute1=10;
+//    obj.attribute2="Hello";
+//    obj.Display();
+
+
+//    Derived obj;
+//    obj.displayBase();
+//    obj.displayDerived();
 
 
 
-//    int x=5, y=15, z=8, w=8,s;
-//    s=x>y ? y>z ? 12:z>w? 13:14:15;
-//    cout<<s;
-
-
-//    int a=2, b=3, c=4;
-//    cout<<a<<b<<c;
-//    cout << a += b *= c;
-//    return 0;
-
-//
-//
-//    int a=1;
-//    int b=2;
-//    int c= a++ + ++b;
-//    printf("%d %d %d",a,b,c);
-
-
-    char arr[]={"hello world"};
-    printf("%s",arr);
 }

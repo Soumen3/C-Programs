@@ -4,8 +4,8 @@
 //  ure for a node in AVL tree
 typedef  struct Node {
     int data;
-      struct Node* left;
-      struct Node* right;
+    struct Node* left;
+    struct Node* right;
     int height;
 }Node;
 
